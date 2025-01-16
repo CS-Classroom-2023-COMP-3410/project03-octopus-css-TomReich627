@@ -1,0 +1,210 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b3e5fc;
+    color: #333;
+}
+
+/* Header Section */
+#header {
+    background: linear-gradient(to right, #017aba, #03bcf4);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 8px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#header h1 {
+    font-size: 30px;
+    margin: 0;
+    font-family: 'georgia', sans-serif;
+}
+
+#header p {
+    font-size: 13px;
+    margin: 10px 0 0;
+    font-style: italic;
+    text-align: left;
+    width: 90%;
+    margin: 10px auto;
+}
+
+/* Main Content Container */
+#main-content {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#main-content p {
+    font-size: 13px;
+}
+
+/* Singular White Container for Introduction and Quiz */
+#intro-quiz-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Main Content */
+#main-content {
+    padding: 20px;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #0277bd;
+    font-family: 'georgia', sans-serif;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+ol {
+    padding-left: 40px;
+}
+
+li {
+    margin: 20px 0;
+    font-size: 13px;
+}
+
+.important {
+    background-color: #4fc4ff;
+    font-weight: bold;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+/* External Resources */
+a {
+    color: #0288d1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Quiz Section */
+#quiz-section {
+    background-color: #84deff;
+    padding: 20px;
+    border: 1px solid #4fc3f7;
+    margin-top: 20px;
+    text-align: left;
+    border-radius: 8px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#quiz-section-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#quiz-section img {
+    border: 3px solid hwb(247 31% 3%);
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+#quiz-section h2 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+#quiz-section-right {
+    flex-grow: 1;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    border: 1px solid #0288d1;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #01579b;
+}
+
+/* Table Section */
+#species-table {
+    margin: 20px 0;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 8px;
+    /*padding: 20px;*/
+}
+
+#species-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#species-table th, #species-table td {
+    border: 1px solid #ababab;
+    padding: 10px;
+    text-align: left;
+}
+
+#species-table th {
+    background-color: #ababab;
+    color: white;
+}
+
+#species-table table tr:nth-child(3) {
+    background-color: white;
+}
+
+/* Footer */
+#footer {
+    background-color: #0288d1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 8px;
+}
